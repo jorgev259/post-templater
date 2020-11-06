@@ -30,7 +30,7 @@
     "eject": "react-scripts eject",
     "dev": "concurrently \"cross-env BROWSER=none yarn start\" \"wait-on http://localhost:3000 && cross-env electron .\"",
     "prod": "cross-env ELECTRON_IS_DEV=0 electron .",
-    "electron-pack": "yarn-build && electron-builder --c.extraMetadata.main=build/electron.js --publish never",
+    "electron-pack": "yarn build && electron-builder --c.extraMetadata.main=build/electron.js",
     "electron-publish": "yarn build && electron-builder --c.extraMetadata.main=build/electron.js --publish always"
   },
     "build": {
