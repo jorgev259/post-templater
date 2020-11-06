@@ -5,9 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(38, 43, 50) !important;
+  color:rgb(227, 227, 227) !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+input, textarea {
+  border: 1px solid rgb(227, 227, 227) !important;
+  color: rgb(227, 227, 227) !important;
+  background-color: transparent !important;
+}
+
+select {
+  color:goldenrod !important;
+}
+
+.btn-primary {
+  background-color: #695cbe !important;
 }
